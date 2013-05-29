@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rd\DotsceneLoader\DotSceneLoader.cpp" />
+    <ClCompile Include="3rd\tinyxml\tinystr.cpp" />
+    <ClCompile Include="3rd\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="3rd\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="3rd\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="Audio\AudioSystem.cpp" />
+    <ClCompile Include="GUI\MyGUIManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Map\MapManager.cpp" />
+    <ClCompile Include="NetWork\MyClientNetworkSystem.cpp" />
+    <ClCompile Include="NetWork\MyGameCommand.cpp" />
+    <ClCompile Include="NetWork\MyServerNetworkSystem.cpp" />
+    <ClCompile Include="NetWork\NetWorkRPCCall.cpp" />
+    <ClCompile Include="NetWork\stdafx.cpp" />
+    <ClCompile Include="Objects\BaseObject.cpp" />
+    <ClCompile Include="Objects\Bullet\BaseBullet.cpp" />
+    <ClCompile Include="Objects\Bullet\BulletManager.cpp" />
+    <ClCompile Include="Objects\Bullet\RocketBullet.cpp" />
+    <ClCompile Include="Objects\Bullet\VerticalBullet.cpp" />
+    <ClCompile Include="Objects\Tank\BaseTank.cpp" />
+    <ClCompile Include="Objects\Tank\M60.cpp" />
+    <ClCompile Include="Objects\Tank\T46.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="State\AboutGUIState.cpp" />
+    <ClCompile Include="State\BaseState.cpp" />
+    <ClCompile Include="State\ChooseMapState.cpp" />
+    <ClCompile Include="State\CreditGUIState.cpp" />
+    <ClCompile Include="State\MainMenuState.cpp" />
+    <ClCompile Include="State\MultiplayerGUIState.cpp" />
+    <ClCompile Include="State\OptionGUIState.cpp" />
+    <ClCompile Include="State\PlayingState.cpp" />
+    <ClCompile Include="State\StateManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\DotsceneLoader\DotSceneLoader.h" />
+    <ClInclude Include="3rd\tinyxml\tinystr.h" />
+    <ClInclude Include="3rd\tinyxml\tinyxml.h" />
+    <ClInclude Include="Audio\AudioSystem.h" />
+    <ClInclude Include="Common\Common.h" />
+    <ClInclude Include="Common\SingletonT.h" />
+    <ClInclude Include="GUI\MyGUIManager.h" />
+    <ClInclude Include="Map\MapManager.h" />
+    <ClInclude Include="NetWork\CommonNetWorkProtocal.h" />
+    <ClInclude Include="NetWork\GameService.h" />
+    <ClInclude Include="NetWork\MyClientNetworkSystem.h" />
+    <ClInclude Include="NetWork\MyGameCommand.h" />
+    <ClInclude Include="NetWork\MyServerNetworkSystem.h" />
+    <ClInclude Include="NetWork\NetWorkRPCCall.h" />
+    <ClInclude Include="NetWork\stdafx.h" />
+    <ClInclude Include="Objects\BaseObject.h" />
+    <ClInclude Include="Objects\Bullet\BaseBullet.h" />
+    <ClInclude Include="Objects\Bullet\BulletManager.h" />
+    <ClInclude Include="Objects\Bullet\RocketBullet.h" />
+    <ClInclude Include="Objects\Bullet\VerticalBullet.h" />
+    <ClInclude Include="Objects\Tank\BaseTank.h" />
+    <ClInclude Include="Objects\Tank\M60.h" />
+    <ClInclude Include="Objects\Tank\T46.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="State\AboutGUIState.h" />
+    <ClInclude Include="State\BaseState.h" />
+    <ClInclude Include="State\ChooseMapState.h" />
+    <ClInclude Include="State\CreditGUIState.h" />
+    <ClInclude Include="State\MainMenuState.h" />
+    <ClInclude Include="State\MultiplayerGUIState.h" />
+    <ClInclude Include="State\OptionGUIState.h" />
+    <ClInclude Include="State\PlayingState.h" />
+    <ClInclude Include="State\StateManager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13DC7330-A2B4-4652-9511-BBF4A07DF5D5}</ProjectGuid>
+    <RootNamespace>WHero</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <OutDir>bin\$(Configuration)\</OutDir>
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(AUDIERE_HOME)\lib;$(OGRE_HOME)\Dependencies\lib\Debug;$(OGRE_HOME)\Raknet3.9\Lib;$(OGRE_HOME)\boost_1_47\lib;$(CEGUI_HOME)\lib\debug;$(CEGUI_HOME)\dependencies\lib\dynamic;$(CEGUI_HOME)\dependencies\lib\static;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(OGRE_HOME)\Raknet3.9\Source;$(AUDIERE_HOME)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>obj\$(Configuration)\</IntDir>
+    <OutDir>bin\$(Configuration)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\Samples\Common\include;$(OGRE_HOME)\boost_1_47;$(CEGUI_HOME)\cegui\include;$(CEGUI_HOME)\dependencies\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)/WHero.pdb</ProgramDatabaseFile>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\debug;$(OGRE_HOME)\boost_1_44\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>audiere.lib;ws2_32.lib;RakNetDLLDebug.lib;RakNetLibStaticDebug.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;OgreMain_d.lib;OIS_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Message>Copying exe to samples bin directory ...</Message>
+      <Command>copy "$(OutDir)\$(TargetFileName)" "$(OGRE_HOME)\Bin\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalIncludeDirectories>include;$(OGRE_HOME)\include;$(OGRE_HOME)\include\OIS;$(OGRE_HOME)\include\OGRE;$(OGRE_HOME)\Samples\Common\include;$(OGRE_HOME)\boost_1_44;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\release;$(OGRE_HOME)\boost_1_44\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Message>Copying exe to samples bin directory ...</Message>
+      <Command>copy "$(OutDir)\$(TargetFileName)" "$(OGRE_HOME)\Bin\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

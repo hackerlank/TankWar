@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{763cb605-0fdf-4063-aad0-1896e75406c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{e08f5d6d-331b-40c8-89e0-04f9c7cdfa3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c4dc3000-bd6d-4479-8aed-a043f4ff7001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{c9bfd86f-e790-45ce-9365-c77627f1be04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{6f8736c7-bf99-4ba0-a17c-a87a30196e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Tank">
+      <UniqueIdentifier>{25a747a9-f184-4588-b04e-affe5c5ffce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{c352a1d7-eb60-40b1-9a85-8c8d69a5e1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{3600540f-3138-48ac-b0d5-f3439b78a273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\DotsceneLoader">
+      <UniqueIdentifier>{a2b76067-6e55-4d38-8a50-6252e83e8e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\timyxml">
+      <UniqueIdentifier>{8c70fe84-ebeb-48fe-815e-8d36c3692cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Bullet">
+      <UniqueIdentifier>{fdc6f918-e2d5-49c6-b23e-975922ee0aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{8a036c30-93f2-4e23-b20d-99feee9661f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GUI\MyGUIManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\BaseObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapManager.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Tank\BaseTank.cpp">
+      <Filter>Objects\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Tank\M60.cpp">
+      <Filter>Objects\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Tank\T46.cpp">
+      <Filter>Objects\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\DotsceneLoader\DotSceneLoader.cpp">
+      <Filter>3rd\DotsceneLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\tinyxml\tinystr.cpp">
+      <Filter>3rd\timyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\tinyxml\tinyxml.cpp">
+      <Filter>3rd\timyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\tinyxml\tinyxmlerror.cpp">
+      <Filter>3rd\timyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\tinyxml\tinyxmlparser.cpp">
+      <Filter>3rd\timyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\MyClientNetworkSystem.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\MyGameCommand.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\MyServerNetworkSystem.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\NetWorkRPCCall.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\stdafx.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bullet\BaseBullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bullet\BulletManager.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bullet\RocketBullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bullet\VerticalBullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="State\AboutGUIState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\BaseState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\ChooseMapState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\CreditGUIState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\MultiplayerGUIState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\OptionGUIState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\PlayingState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State\StateManager.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\SingletonT.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GUI\MyGUIManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\BaseObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapManager.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Tank\BaseTank.h">
+      <Filter>Objects\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Tank\M60.h">
+      <Filter>Objects\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Tank\T46.h">
+      <Filter>Objects\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\DotsceneLoader\DotSceneLoader.h">
+      <Filter>3rd\DotsceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\tinyxml\tinystr.h">
+      <Filter>3rd\timyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\tinyxml\tinyxml.h">
+      <Filter>3rd\timyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CommonNetWorkProtocal.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\GameService.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\MyClientNetworkSystem.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\MyGameCommand.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\MyServerNetworkSystem.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\NetWorkRPCCall.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\stdafx.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bullet\BaseBullet.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bullet\BulletManager.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bullet\RocketBullet.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bullet\VerticalBullet.h">
+      <Filter>Objects\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="State\AboutGUIState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\BaseState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\ChooseMapState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\CreditGUIState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\MultiplayerGUIState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\OptionGUIState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\PlayingState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State\StateManager.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
