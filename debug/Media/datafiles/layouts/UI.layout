@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="UI" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticImage" Name="Exit" >
+            <Property Name="Alpha" Value="0.5" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.309009,0},{0.424797,0},{0.673123,0},{0.63428,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Exit//" >
+                <Property Name="Text" Value="   EXIT ?" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.353608,0},{0.183946,0},{0.603608,0},{0.433946,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="ok" >
+                <Property Name="Text" Value="OK" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.086598,0},{0.632108,0},{0.320103,0},{0.882108,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="cancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.669071,0},{0.639265,0},{0.9067,0},{0.889265,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="GUI" >
+            <Property Name="Alpha" Value="0.4" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.000601,0},{-0.001945,0},{0.187538,0},{0.155673,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="UI//" >
+                <Property Name="Text" Value="Blood:" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.042972,0},{0.18689,0},{0.381325,0},{0.43689,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="UI//1" >
+                <Property Name="Text" Value="Kills:" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0706829,0},{0.543959,0},{0.38494,0},{0.783676,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="kill" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.475904,0},{0.561697,0},{0.725904,0},{0.811697,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="blood" >
+                <Property Name="Text" Value="100" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.440964,0},{0.189717,0},{0.690964,0},{0.439717,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/StaticImage" Name="Replay" >
+            <Property Name="Alpha" Value="0.5" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.312312,0},{0.427066,0},{0.673423,0},{0.636547,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="Replay/" >
+                <Property Name="Text" Value=" Replay?" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.38316,0},{0.176209,0},{0.63316,0},{0.426209,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="yes" >
+                <Property Name="Text" Value="YES" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.075676,0},{0.624372,0},{0.325675,0},{0.874372,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="no" >
+                <Property Name="Text" Value="NO" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.66632,0},{0.639265,0},{0.91632,0},{0.889265,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

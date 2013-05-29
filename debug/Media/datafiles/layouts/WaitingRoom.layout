@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="TaharezLook/StaticImage" Name="WaitingRoom" >
+        <Property Name="Alpha" Value="0.8" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/Button" Name="WaitingRoom/Back" >
+            <Property Name="Text" Value="Back" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.034375,0},{0.891667,0},{0.14375,0},{0.964583,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="WaitingRoom/ReadyStart" >
+            <Property Name="Text" Value="ReadyStart" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.854883,0},{0.891667,0},{0.964258,0},{0.964584,0}}" />
+        </Window>
+        <Window Type="TaharezLook/MultiColumnList" Name="WaitingRoom/PlayerList" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0513672,0},{0.0497395,0},{0.571875,0},{0.397395,0}}" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="WaitingRoom/StartRacing" >
+            <Property Name="Text" Value="Start Racing" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.332031,0},{0.630208,0},{0.644531,0},{0.761719,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

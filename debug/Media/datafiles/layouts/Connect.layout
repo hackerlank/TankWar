@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Connect" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="Connect/" >
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.235532,0},{0.173582,0},{0.485533,0},{0.83363,0}}" />
+            <Window Type="TaharezLook/Button" Name="create" >
+                <Property Name="Text" Value="Create" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.234033,0},{0.071639,0},{0.693928,0},{0.164487,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="join" >
+                <Property Name="Text" Value="Join" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232084,0},{0.215838,0},{0.673988,0},{0.316052,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="back" >
+                <Property Name="Text" Value="Back" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.254123,0},{0.369858,0},{0.69003,0},{0.477441,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

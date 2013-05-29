@@ -1,0 +1,509 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="100" minOgreVersion="1.7" ogreMaxVersion="2.4.3" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="pCube1">
+            <position x="-469.723" y="0.572756" z="-299.475" />
+            <scale x="50" y="50" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <entity name="pCube1" castShadows="true" receiveShadows="true" meshFile="pCube1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="SnowGround_1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="pCube2">
+            <position x="-1043.84" y="112.913" z="-781.031" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <entity name="pCube2" castShadows="true" receiveShadows="true" meshFile="pCube2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="House_1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="pCube3">
+            <position x="-1043.65" y="228.021" z="-781.766" />
+            <scale x="1.04066" y="2.1253" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <entity name="pCube3" castShadows="true" receiveShadows="true" meshFile="pCube3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Roof_1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="group">
+            <position x="-469.549" y="1.00814e-005" z="56.0961" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__pCube3">
+                <position x="-574.104" y="-307.159" z="-228.021" />
+                <scale x="1.04066" y="2.1253" z="1" />
+                <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                <entity name="pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pCube3.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="Roof_1" />
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pasted__pCube2">
+                <position x="-574.289" y="-306.424" z="-112.913" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <entity name="pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pCube2.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="House_1" />
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        <node name="group1">
+            <position x="-469.549" y="-6.50589e-006" z="25.7028" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group">
+                <position x="0" y="355.188" z="-1.55257e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__pCube3">
+                    <position x="-574.104" y="-174.571" z="-228.021" />
+                    <scale x="1.04066" y="2.1253" z="1" />
+                    <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                    <entity name="pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pCube3.mesh">
+                        <subentities>
+                            <subentity index="0" materialName="Roof_1" />
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="pasted__pasted__pCube2">
+                    <position x="-574.289" y="-173.836" z="-112.913" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <entity name="pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pCube2.mesh">
+                        <subentities>
+                            <subentity index="0" materialName="House_1" />
+                        </subentities>
+                    </entity>
+                </node>
+            </node>
+        </node>
+        <node name="group2">
+            <position x="685.553" y="-4.43468e-005" z="-1014.54" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group1">
+                <position x="0" y="324.794" z="-1.41972e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group">
+                    <position x="0" y="355.188" z="-1.55257e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__pCube3">
+                        <position x="-574.104" y="23.078" z="-228.021" />
+                        <scale x="1.04066" y="2.1253" z="1" />
+                        <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                        <entity name="pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pCube3.mesh">
+                            <subentities>
+                                <subentity index="0" materialName="Roof_1" />
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="pasted__pasted__pasted__pCube2">
+                        <position x="-574.289" y="23.8133" z="-112.913" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <entity name="pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pCube2.mesh">
+                            <subentities>
+                                <subentity index="0" materialName="House_1" />
+                            </subentities>
+                        </entity>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group3">
+            <position x="-469.549" y="-1.56554e-006" z="662.345" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group2">
+                <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group1">
+                    <position x="0" y="324.794" z="-1.41972e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group">
+                        <position x="0" y="355.188" z="-1.55258e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__pCube3">
+                            <position x="-574.104" y="-482.675" z="-228.021" />
+                            <scale x="1.04066" y="2.1253" z="1" />
+                            <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                            <entity name="pasted__pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pCube3.mesh">
+                                <subentities>
+                                    <subentity index="0" materialName="Roof_1" />
+                                </subentities>
+                            </entity>
+                        </node>
+                        <node name="pasted__pasted__pasted__pasted__pCube2">
+                            <position x="-574.289" y="-481.939" z="-112.913" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <entity name="pasted__pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pCube2.mesh">
+                                <subentities>
+                                    <subentity index="0" materialName="House_1" />
+                                </subentities>
+                            </entity>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group4">
+            <position x="-469.549" y="-3.27742e-005" z="-749.786" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group2_1">
+                <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group1_1">
+                    <position x="0" y="324.794" z="-1.41972e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group_1">
+                        <position x="0" y="355.188" z="-1.55257e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__pCube3_1">
+                            <position x="-574.104" y="23.078" z="-228.021" />
+                            <scale x="1.04066" y="2.1253" z="1" />
+                            <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                            <entity name="pasted__pasted__pasted__pasted__pCube3_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pCube3_1.mesh">
+                                <subentities>
+                                    <subentity index="0" materialName="Roof_1" />
+                                </subentities>
+                            </entity>
+                        </node>
+                        <node name="pasted__pasted__pasted__pasted__pCube2_1">
+                            <position x="-574.289" y="23.8133" z="-112.913" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <entity name="pasted__pasted__pasted__pasted__pCube2_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pCube2_1.mesh">
+                                <subentities>
+                                    <subentity index="0" materialName="House_1" />
+                                </subentities>
+                            </entity>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group5">
+            <position x="-1261.51" y="-3.59619e-005" z="-299.092" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group4">
+                <position x="0" y="-450.694" z="1.97005e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group2">
+                    <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group1">
+                        <position x="0" y="324.794" z="-1.41972e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group">
+                            <position x="0" y="355.188" z="-1.55257e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__pCube3">
+                                <position x="-574.104" y="23.078" z="-228.021" />
+                                <scale x="1.04066" y="2.1253" z="1" />
+                                <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                <entity name="pasted__pasted__pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pCube3.mesh">
+                                    <subentities>
+                                        <subentity index="0" materialName="Roof_1" />
+                                    </subentities>
+                                </entity>
+                            </node>
+                            <node name="pasted__pasted__pasted__pasted__pasted__pCube2">
+                                <position x="-574.289" y="23.8133" z="-112.913" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <entity name="pasted__pasted__pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pCube2.mesh">
+                                    <subentities>
+                                        <subentity index="0" materialName="House_1" />
+                                    </subentities>
+                                </entity>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group6">
+            <position x="-81.2364" y="-3.59619e-005" z="-299.092" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group5">
+                <position x="-791.961" y="0" z="0" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group4">
+                    <position x="0" y="-450.694" z="1.97005e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group2">
+                        <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group1">
+                            <position x="0" y="324.794" z="-1.41972e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__group">
+                                <position x="0" y="355.188" z="-1.55257e-005" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__pCube3">
+                                    <position x="-574.104" y="23.078" z="-228.021" />
+                                    <scale x="1.04066" y="2.1253" z="1" />
+                                    <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                    <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pCube3.mesh">
+                                        <subentities>
+                                            <subentity index="0" materialName="Roof_1" />
+                                        </subentities>
+                                    </entity>
+                                </node>
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__pCube2">
+                                    <position x="-574.289" y="23.8133" z="-112.913" />
+                                    <scale x="1" y="1" z="1" />
+                                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                                    <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pCube2.mesh">
+                                        <subentities>
+                                            <subentity index="0" materialName="House_1" />
+                                        </subentities>
+                                    </entity>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group7">
+            <position x="-469.549" y="-1.44136e-005" z="193.875" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group6">
+                <position x="388.313" y="0" z="0" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group5">
+                    <position x="-791.961" y="0" z="0" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group4">
+                        <position x="0" y="-450.694" z="1.97005e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group2">
+                            <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__group1">
+                                <position x="0" y="324.794" z="-1.41972e-005" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__group">
+                                    <position x="0" y="355.188" z="-1.55257e-005" />
+                                    <scale x="1" y="1" z="1" />
+                                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                                    <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3">
+                                        <position x="-574.104" y="23.078" z="-228.021" />
+                                        <scale x="1.04066" y="2.1253" z="1" />
+                                        <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                        <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3.mesh">
+                                            <subentities>
+                                                <subentity index="0" materialName="Roof_1" />
+                                            </subentities>
+                                        </entity>
+                                    </node>
+                                    <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2">
+                                        <position x="-574.289" y="23.8133" z="-112.913" />
+                                        <scale x="1" y="1" z="1" />
+                                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                                        <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2.mesh">
+                                            <subentities>
+                                                <subentity index="0" materialName="House_1" />
+                                            </subentities>
+                                        </entity>
+                                    </node>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+            <node name="pasted__group5_1">
+                <position x="-791.961" y="0" z="0" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group4_1">
+                    <position x="0" y="-450.694" z="1.97005e-005" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group2_1">
+                        <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group1_1">
+                            <position x="0" y="324.794" z="-1.41972e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__group_1">
+                                <position x="0" y="355.188" z="-1.55257e-005" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1">
+                                    <position x="-574.104" y="23.078" z="-228.021" />
+                                    <scale x="1.04066" y="2.1253" z="1" />
+                                    <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                    <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1.mesh">
+                                        <subentities>
+                                            <subentity index="0" materialName="Roof_1" />
+                                        </subentities>
+                                    </entity>
+                                </node>
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1">
+                                    <position x="-574.289" y="23.8133" z="-112.913" />
+                                    <scale x="1" y="1" z="1" />
+                                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                                    <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1.mesh">
+                                        <subentities>
+                                            <subentity index="0" materialName="House_1" />
+                                        </subentities>
+                                    </entity>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node name="group8">
+            <position x="-469.549" y="5.73386e-006" z="131.175" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <node name="pasted__group7">
+                <position x="0" y="492.967" z="-2.15483e-005" />
+                <scale x="1" y="1" z="1" />
+                <rotation qx="0" qy="0" qz="0" qw="1" />
+                <node name="pasted__pasted__group6">
+                    <position x="388.313" y="0" z="0" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group5">
+                        <position x="-791.961" y="0" z="0" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group4">
+                            <position x="0" y="-450.694" z="1.97005e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__group2">
+                                <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__group1">
+                                    <position x="0" y="324.794" z="-1.41972e-005" />
+                                    <scale x="1" y="1" z="1" />
+                                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                                    <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__group">
+                                        <position x="0" y="355.188" z="-1.55257e-005" />
+                                        <scale x="1" y="1" z="1" />
+                                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                                        <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3">
+                                            <position x="-574.104" y="23.078" z="-228.021" />
+                                            <scale x="1.04066" y="2.1253" z="1" />
+                                            <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                            <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3.mesh">
+                                                <subentities>
+                                                    <subentity index="0" materialName="Roof_1" />
+                                                </subentities>
+                                            </entity>
+                                        </node>
+                                        <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2">
+                                            <position x="-574.289" y="23.8133" z="-112.913" />
+                                            <scale x="1" y="1" z="1" />
+                                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                                            <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2.mesh">
+                                                <subentities>
+                                                    <subentity index="0" materialName="House_1" />
+                                                </subentities>
+                                            </entity>
+                                        </node>
+                                    </node>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+                <node name="pasted__pasted__group5_1">
+                    <position x="-791.961" y="0" z="0" />
+                    <scale x="1" y="1" z="1" />
+                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                    <node name="pasted__pasted__pasted__group4_1">
+                        <position x="0" y="-450.694" z="1.97005e-005" />
+                        <scale x="1" y="1" z="1" />
+                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                        <node name="pasted__pasted__pasted__pasted__group2_1">
+                            <position x="1155.1" y="-715.444" z="3.1273e-005" />
+                            <scale x="1" y="1" z="1" />
+                            <rotation qx="0" qy="0" qz="0" qw="1" />
+                            <node name="pasted__pasted__pasted__pasted__pasted__group1_1">
+                                <position x="0" y="324.794" z="-1.41972e-005" />
+                                <scale x="1" y="1" z="1" />
+                                <rotation qx="0" qy="0" qz="0" qw="1" />
+                                <node name="pasted__pasted__pasted__pasted__pasted__pasted__group_1">
+                                    <position x="0" y="355.188" z="-1.55257e-005" />
+                                    <scale x="1" y="1" z="1" />
+                                    <rotation qx="0" qy="0" qz="0" qw="1" />
+                                    <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1">
+                                        <position x="-574.104" y="23.078" z="-228.021" />
+                                        <scale x="1.04066" y="2.1253" z="1" />
+                                        <rotation qx="1.65721e-015" qy="0" qz="0" qw="1" />
+                                        <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube3_1.mesh">
+                                            <subentities>
+                                                <subentity index="0" materialName="Roof_1" />
+                                            </subentities>
+                                        </entity>
+                                    </node>
+                                    <node name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1">
+                                        <position x="-574.289" y="23.8133" z="-112.913" />
+                                        <scale x="1" y="1" z="1" />
+                                        <rotation qx="0" qy="0" qz="0" qw="1" />
+                                        <entity name="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1" castShadows="true" receiveShadows="true" meshFile="pasted__pasted__pasted__pasted__pasted__pasted__pasted__pCube2_1.mesh">
+                                            <subentities>
+                                                <subentity index="0" materialName="House_1" />
+                                            </subentities>
+                                        </entity>
+                                    </node>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+    </nodes>
+</scene>

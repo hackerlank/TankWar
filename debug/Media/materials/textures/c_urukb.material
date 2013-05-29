@@ -1,0 +1,18 @@
+material c_urukb
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1
+
+			texture_unit
+			{
+				texture c_urukb.tga
+			}
+		}
+	}
+}
+

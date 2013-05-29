@@ -1,0 +1,255 @@
+material tire_wen
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.27272 0.253084 0.253084 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material tire
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.2 0.1844 0.1844 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material blinn1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0.974 0.774696 0.687644 107.776
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture 1.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material blinn5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.887 0.306881 0.074508 1
+			specular 0.5 0.5 0.5 89.6
+			emissive 0 0 0
+		}
+	}
+}
+material blinn11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0.974 0.774696 0.687644 107.776
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture number_fin.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material blinn4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.04958 0.04958 0.04958 1
+			diffuse 1 1 1 1
+			specular 0.93388 0.891579 0.794732 107.776
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture 1.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material blinn6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.322199 0.061 1
+			specular 0.5 0.5 0.5 89.6
+			emissive 0 0 0
+		}
+	}
+}
+material blinn7
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.735 0.867456 1 1
+			specular 0.5 0.5 0.5 89.6
+			emissive 0 0 0
+		}
+	}
+}
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.435252 0.450939 0.498 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material blinn8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.949 0.699446 0.241046 1
+			specular 0.974 0.884086 0.678878 107.776
+			emissive 0 0 0
+		}
+	}
+}
+material blinn3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.94214 0.94214 0.94214 1
+			specular 0.974 0.884086 0.678878 107.776
+			emissive 0 0 0
+		}
+	}
+}
+material bag
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture 2.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material lambert5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.253749 0.392157 0.25889 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material blinn9
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0.974 0.774696 0.687644 107.776
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture qian.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material blinn10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0.974 0.774696 0.687644 107.776
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture 13.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

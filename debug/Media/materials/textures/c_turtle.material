@@ -1,0 +1,36 @@
+material c_shell
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1
+			diffuse 1 1 1 1
+			specular 0.0 0.0 0.0 1
+
+			texture_unit
+			{
+				texture c_shell.tga
+			}
+		}
+	}
+}
+
+material c_turtle
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1
+
+			texture_unit
+			{
+				texture c_turtle.tga
+			}
+		}
+	}
+}
+

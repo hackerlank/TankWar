@@ -1,0 +1,55 @@
+
+particle_system Examples/Smoke
+{
+	quota	200
+	material	Examples/Smoke
+	particle_width	10
+	particle_height	40
+	cull_each	false
+	renderer	billboard
+	billboard_type	point
+
+	emitter Point
+	{
+		angle	2
+		colour	1 0.189474 0.0631577 1
+		colour_range_start	1 0.189474 0.0631577 1
+		colour_range_end	1 0.189474 0.0631577 1
+		direction	0 -1 0
+		emission_rate	20
+		position	0 0 0
+		velocity	0
+		velocity_min	2
+		velocity_max	12
+		time_to_live	0
+		time_to_live_min	0.2
+		time_to_live_max	0.6
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+	}
+	affector ColourImage
+	{
+		image smokecolors.png
+	}
+	affector Scaler
+	{
+		rate	0.4545
+	}
+
+	affector ColourFader2
+	{
+		red1	0.6818
+		green1	0.04348
+		blue1	0.01
+		alpha1	0
+		red2	0
+		green2	1
+		blue2	1
+		alpha2	0
+		state_change	0.8
+	}
+}

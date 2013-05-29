@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Options" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticImage" Name="Image1" >
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00014875,0},{0.00178324,0},{1.59348,0},{1.10268,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="TaharezLook/StaticText" Name="full" >
+                <Property Name="Text" Value="   Full Screen:" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.576641,0},{0.210195,0},{0.725016,0},{0.283531,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="Voice" >
+                <Property Name="Text" Value="      Voice:" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.57356,0},{0.33986,0},{0.727581,0},{0.414667,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Screen" >
+                <Property Name="Text" Value="No" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.747472,0},{0.208503,0},{0.901496,0},{0.284782,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="VoiceB" >
+                <Property Name="Text" Value="Yes" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748577,0},{0.336915,0},{0.902599,0},{0.413194,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="back" >
+                <Property Name="Text" Value="Back" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.750717,0},{0.818218,0},{0.927323,0},{0.901857,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

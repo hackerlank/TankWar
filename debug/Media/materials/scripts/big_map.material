@@ -1,0 +1,1807 @@
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material 雁门小石头1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_雁门小石头1.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 雁门小石头2
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_雁门小石头2.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 酒罐
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_酒罐.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_1_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_4_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原土地底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_8_3_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A03.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_8_3_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_7_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A02.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_11_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_11_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花4.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_8_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A03.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_1_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_6_3_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A01.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_6_3_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_11_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_11_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花4.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_6_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A01.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_12_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_12_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花5.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_10_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_10_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花3.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_7_3_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 北方山A02.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_7_3_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_12_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_12_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花5.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_13_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 沼泽.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_5_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_5_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原土地上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_13_3_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 沼泽.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_13_3_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_3_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_3_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草上层.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_10_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原浅草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_0_10_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花3.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_9_0
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 草原深草底层.jpg
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material TerrainMat_2_9_0-_-1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture 花2.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material haihuwater
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_海湖水_0.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material haihuwater-_-1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture water_depth.tga
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古大鼓边
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_蒙古敖包.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 破蒙古包底
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_蒙古包杂.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 大灌8
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_大灌8.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 大灌9
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_大灌9.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 大灌2
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_大灌2.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 大灌4
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_大灌4.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古包2布
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_蒙古包2.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古包
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_蒙古包.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古包牛头
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_牛头.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 胡杨叶
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_胡杨.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 胡杨枯枝
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_胡杨枯枝.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 胡杨干
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_胡杨树皮.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 草原车
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_草原车.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古大鼓
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_蒙古大鼓.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 蒙古栅栏1
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_蒙古栅栏.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 大灌7
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_大灌7.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 水槽
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_水槽.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 水草
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_草8.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 芦苇
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_芦苇.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 水草3
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture tga_水草3.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 农村石头
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 100
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_农村石头.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 火堆
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_废墟.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 烤羊
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_烤羊.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}
+
+
+
+material 火堆石
+{
+	technique
+	{
+		pass
+		{
+			specular 0 0 0 1 1
+			scene_blend add
+
+			texture_unit
+			{
+				texture jpg_火堆石.dds
+			}
+
+			texture_unit
+			{
+				colour_op_ex blend_manual src_manual src_current 0.99 1 1 1
+				colour_op_multipass_fallback dest_colour zero
+				alpha_op_ex source1 src_manual src_current 0.99
+			}
+		}
+
+	}
+
+}

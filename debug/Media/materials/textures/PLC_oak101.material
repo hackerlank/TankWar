@@ -1,0 +1,56 @@
+material treebranch
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.788235009 0.725489974 0.725489974 1
+			diffuse 0.788235009 0.725489974 0.725489974 1
+			specular 0 0 0 1
+
+			texture_unit
+			{
+				texture treebranch.tga
+			}
+		}
+	}
+}
+
+material trunk
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.788235009 0.725489974 0.725489974 1
+			diffuse 0.788235009 0.725489974 0.725489974 1
+			specular 0 0 0 1
+
+			texture_unit
+			{
+				texture trunk.tga
+			}
+		}
+	}
+}
+
+material foliage
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			ambient 0.882353008 0.882353008 0.882353008 1
+			diffuse 0.882353008 0.882353008 0.882353008 1
+			specular 0 0 0 1
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture foliage.tga
+			}
+		}
+	}
+}
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ChooseMap" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/StaticImage" Name="Image3" >
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00014875,0},{0.000162003,0},{1.22316,0},{1.04271,0}}" />
+            <Window Type="TaharezLook/StaticImage" Name="Map" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.284064,0},{0.135212,0},{0.730203,0},{0.518908,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Right" >
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.761631,0},{0.283405,0},{0.844911,0},{0.395044,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Left" >
+                <Property Name="Text" Value="&lt;&lt;" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.161661,0},{0.283405,0},{0.244944,0},{0.395044,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Next" >
+                <Property Name="Text" Value="Create" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.756543,0},{0.83117,0},{0.951379,0},{0.928818,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="Back" >
+                <Property Name="Text" Value="Back" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052375,0},{0.83117,0},{0.242308,0},{0.928818,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

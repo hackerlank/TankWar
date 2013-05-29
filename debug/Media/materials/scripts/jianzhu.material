@@ -1,0 +1,49 @@
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture µØ°å¸±±¾.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material lambert4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.213 0.213 0.213 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material lambert3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.431373 0.385054 0.329873 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}

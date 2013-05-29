@@ -1,0 +1,26 @@
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.447442 0.5 0.3145 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material lambert2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.647059 0.31634 0.215686 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}

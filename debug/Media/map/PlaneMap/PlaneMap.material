@@ -1,0 +1,68 @@
+material SnowGround_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture SnowGround_1.jpg
+				transform 100 0 0 0 0 100 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material House_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0 0 0 1 1
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture House_1.png
+				transform 10 0 0 0 0 10 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Roof_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.8 0.8 0.8 1
+			specular 0 0 0 1 1
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture Roof_1.png
+				transform 20 0 0 0 0 20 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}

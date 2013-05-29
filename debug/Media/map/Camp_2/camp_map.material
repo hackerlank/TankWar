@@ -1,0 +1,446 @@
+material NoMaterial
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material 01-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture dipingmian.jpg
+				transform 6 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Ground_SandShore
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.592157 0.513726 0.192157 1
+			diffuse 0.592157 0.513726 0.192157 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture desert top.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material po
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.439216 0.439216 0.439216 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture gate.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Wood_Driftwood
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.411765 0.196078 1
+			diffuse 0.580392 0.411765 0.196078 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture Driftwd.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Metal_Wall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.662745 0.580392 0.439216 1
+			specular 0.72 0.72 0.72 1 25
+
+			texture_unit
+			{
+				texture Walker.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Wood_Ashen
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.580392 0.411765 0.196078 1
+			diffuse 0.580392 0.411765 0.196078 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture crate.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 07-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture building 1 UV2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Stones_Benedeti
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.447059 0.447059 0.447059 1
+			diffuse 0.447059 0.447059 0.447059 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture Benedeti.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 07-Default1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture crate UV 1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 07-Default2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture crate UV 2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 11-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture tank2.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Fabric_Tan_Carpet
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.768628 0.705882 1
+			diffuse 0.8 0.768628 0.705882 1
+			specular 0.045 0.045 0.045 1 25
+
+			texture_unit
+			{
+				texture desert_camo.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 11-Default2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture helipad.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Metal_Steel
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.439216 0.439216 0.439216 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture flag.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standard_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture 7.png
+				transform 2 0 0 0 0 2 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#26
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}

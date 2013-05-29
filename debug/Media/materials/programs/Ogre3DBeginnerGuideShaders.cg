@@ -1,0 +1,118 @@
+void MyVertexShader1(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,      
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+}
+ 
+void MyFragmentShader1(out float4 color : COLOR)
+ 
+{
+    color = float4(0,0,1,0);
+}
+
+
+
+void MyVertexShader2(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oUv = uv;
+
+}
+ 
+void MyFragmentShader2(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR,
+						uniform sampler2D texture)
+ 
+{
+    color = tex2D(texture, uv);
+}
+
+
+
+void MyVertexShader3(
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oUv = uv;
+
+}
+ 
+void MyFragmentShader3(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR,
+						uniform sampler2D texture)
+ 
+{
+    color = float4(0,1,0,0);
+}
+
+
+void MyVertexShader4(
+        float4 position        : POSITION,
+        out float4 oPosition    : POSITION, 
+		float4 color		:COLOR,
+		out float4 ocolor		:COLOR,		
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	ocolor = color;
+
+}
+ 
+void MyFragmentShader4(	float4 color : COLOR,
+						out float4 oColor : COLOR)
+ 
+{
+    oColor = color;
+}
+
+void MyVertexShader5( uniform float pulseTime,
+        float4 position        : POSITION,      
+        out float4 oPosition    : POSITION,  
+		float2 uv 			: TEXCOORD0,
+		out float2 oUv       : TEXCOORD0,
+        uniform float4x4 worldViewMatrix)
+{
+    oPosition = mul(worldViewMatrix, position);
+	oPosition.x *= (2+sin(pulseTime));
+	oUv = uv;
+
+}
+
+void MyFragmentShader5(float2 uv 			: TEXCOORD0,
+						out float4 color : COLOR
+						)
+ 
+{
+	float brickwidth = 0.25;
+	float brickheight = 0.25;
+	float morterthickness = 0.01;
+    color = float4(0,0,1,0);
+}
+
+void MyVertexShader6(float4 position	:POSITION,
+			out float4 oPosition 	:POSITION,
+			float2 uv 		: TEXCOORD0,
+			out float2 oUv       : TEXCOORD0,
+			uniform float4x4 worldViewMatrix)
+{
+	oPosition = mul(worldViewMatrix, position);
+	oUv = uv;
+}
+
+void MyFragmentShader6(float2 uv 	: TEXCOORD0,
+			out float4 color : COLOR,
+			uniform sampler2D texture)
+{
+	 color = tex2D(texture, uv);	
+}
